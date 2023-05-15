@@ -11,6 +11,7 @@
 		D4212AB42A120A050054DF20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212AB32A120A050054DF20 /* ContentView.swift */; };
 		D4212AB62A120A060054DF20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4212AB52A120A060054DF20 /* Assets.xcassets */; };
 		D4212AB92A120A060054DF20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4212AB82A120A060054DF20 /* Preview Assets.xcassets */; };
+		D4212AC02A1219460054DF20 /* sheetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4212ABF2A1219460054DF20 /* sheetExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D4212AB32A120A050054DF20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D4212AB52A120A060054DF20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4212AB82A120A060054DF20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4212ABF2A1219460054DF20 /* sheetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sheetExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				D4212AB12A120A050054DF20 /* buttom_sheetApp.swift */,
 				D4212AB32A120A050054DF20 /* ContentView.swift */,
+				D4212ABF2A1219460054DF20 /* sheetExtension.swift */,
 				D4212AB52A120A060054DF20 /* Assets.xcassets */,
 				D4212AB72A120A060054DF20 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4212AB42A120A050054DF20 /* ContentView.swift in Sources */,
+				D4212AC02A1219460054DF20 /* sheetExtension.swift in Sources */,
 				D4212AB22A120A050054DF20 /* buttom_sheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
