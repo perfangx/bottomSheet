@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
     @State var presentSheet = true
@@ -15,6 +16,8 @@ struct ContentView: View {
         NavigationView {
             VStack(spacing: 10){
                 //MARK: MAP VIEW
+                let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 25.2048, longitude: 55.2708), latitudinalMeters: 10000,longitudinalMeters: 10000)
+                Map(coordinateRegion: .constant(region))
                 MyIcon()
                     .frame(width: 194,height: 85)
                 Text("this is map page")
@@ -55,10 +58,10 @@ struct ContentView: View {
                         label: {
                             HStack{
                                 VStack(spacing:1){
-                                    Image("verticalTransportation")
-                                        .resizable()
-                                  //  Circle()
-                                    //  .clipShape(Circle())
+//                                    Image("verticalTransportation")
+//                                        .resizable()
+                                    Circle()
+                                      .clipShape(Circle())
                                         .frame(width: 69 ,height: 69)
                                         .cornerRadius(8)
                                         .padding()
